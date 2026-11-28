@@ -16,11 +16,12 @@ This repository contains my personal solutions to these problems, automatically 
 Verified machine learning implementations completed on [TensorTonic](https://www.tensortonic.com).
 
 <p align="center">
-  <img src="https://www.tensortonic.com/api/badge/chifmaster113.svg" alt="TensorTonic Verified Solutions" width="100%" />
+  <img src="https://www.tensortonic.com/api/badge/izum.svg" alt="TensorTonic Verified Solutions" width="100%" />
 </p>
 
 | Problem | Description | Link |
 |---|---|---|
+| Implement Cosine Similarity | Implement cosine similarity from scratch with NumPy. Covers dot products, Euclidean norms and zero-vector handling, with tests in the browser. | https://www.tensortonic.com/problems/cosine-similarity |
 | Implement Gradient Descent for a 1D Quadratic | Optimize a one-dimensional quadratic with iterative gradient descent and return the parameter trajectory. | https://www.tensortonic.com/problems/gradient-descent-quadratic |
 | Matrix Transpose | Implement matrix transpose in NumPy without built-in transpose helpers, preserving rectangular shapes and the original input. | https://www.tensortonic.com/problems/matrix-transpose |
 | ReLU | Implement ReLU activation in CUDA with one thread per element, bounds checks, and branch-efficient rectification. | https://www.tensortonic.com/problems/relu |
@@ -30,5 +31,5 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Vector Addition | Implement bounds-checked pointwise vector addition in CUDA with one thread per output element. | https://www.tensortonic.com/problems/vector-addition |
 | Vector Subtraction | Implement bounds-checked pointwise vector subtraction in CUDA with one thread per output element. | https://www.tensortonic.com/problems/vector-subtract |
 
-View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/chifmaster113)
+View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/izum)
 <!-- tensortonic:end -->
