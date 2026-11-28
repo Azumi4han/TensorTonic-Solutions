@@ -1,0 +1,1 @@
+Contiguous means that we have for example arrays that are stored in memory next to each other without any gaps and in strict size, for example we reserved 12byte for 12 byte array, no more no less. This gives a huge advantage by saving memory and accessing, since we know already where each array is.
