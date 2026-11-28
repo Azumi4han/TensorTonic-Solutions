@@ -6,9 +6,6 @@ def cosine_similarity(a: list, b: list) -> float:
     """
     a = np.array(a, dtype=float)
     b = np.array(b, dtype=float)
-
-    # Avoiding dividing by 0
-    if not a.any():
-        return 0
     
-    return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b)))
+    sim = np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+    return float(np.nan_to_num(sim, nan=0.0))
